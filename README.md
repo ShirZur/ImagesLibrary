@@ -16,10 +16,11 @@ This Android library provides various image processing features, including cropp
 
 # Usage
 Here are some examples of how to use the library in your Android project:
-```markdown
+
 ### 1. Adjusting Brightness
-```java
+```groovy
 Bitmap adjustedBitmap = ImageProcessor.adjustBrightness(originalBitmap, 1.5f);
 imageView.setImageBitmap(adjustedBitmap);
+'''
 
 
