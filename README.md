@@ -10,3 +10,16 @@ This Android library provides various image processing features, including cropp
 - **Sharpening**: Enhance the sharpness of an image.
 - **Filter Application**: Apply various filters such as Black & White, Sepia, Negative, and Vintage.
 - **Image Rotation**: Rotate the image by a specified degree.
+
+- ## Installation
+
+
+# Usage
+Here are some examples of how to use the library in your Android project:
+```markdown
+### 1. Adjusting Brightness
+```java
+Bitmap adjustedBitmap = ImageProcessor.adjustBrightness(originalBitmap, 1.5f);
+imageView.setImageBitmap(adjustedBitmap);
+
+
