@@ -19,9 +19,8 @@ Here are some examples of how to use the library in your Android project:
 
 ### 1. Adjusting Brightness
 ```groovy
-dependencies {
-    implementation 'com.github.ShirZur:messagelibrary:Tag'
-}
+Bitmap adjustedBitmap = ImageProcessor.adjustBrightness(originalBitmap, 1.5f);
+imageView.setImageBitmap(adjustedBitmap);
 ```
 
 
