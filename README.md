@@ -2,6 +2,10 @@
 
 This Android library provides various image processing features, including cropping, brightness adjustment, blurring, sharpening, applying filters, and rotating images. It is designed to be straightforward and easy to integrate into any Android project.
 
+## Demonstration Video
+https://github.com/user-attachments/assets/1f4d983d-d3ac-4252-ac02-fcc951a456b4
+
+
 ## Features
 
 - **Cut Image**: Crop any image to a specific size or aspect ratio.
