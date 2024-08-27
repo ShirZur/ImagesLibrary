@@ -16,6 +16,28 @@ https://github.com/user-attachments/assets/1f4d983d-d3ac-4252-ac02-fcc951a456b4
 - **Image Rotation**: Rotate the image by a specified degree.
 
 - ## Installation
+  ### Step 1: Add Maven Repository
+
+Add the following code to the `dependencyResolutionManagement` section in your project's `settings.gradle` file:
+
+```groovy
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+### Step 2: Add Dependency
+
+Add the library dependency to your app module's build.gradle file:
+
+```groovy
+dependencies {
+implementation 'com.github.ShirZur:ImagesLibrary:Tag'}
+```
+
 
 
 # Usage
